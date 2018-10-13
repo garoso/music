@@ -8,7 +8,7 @@
           <div class="card p-2 m-1 mr-1">
             <img class="card-img-top" style="height: 100px;" src="<%= album.image_url%>">
             <div class="card-body p-1">
-              <div class="card-title text-center"><%= album.name.capitalize %></div>
+              <div class="card-title text-center"><%= album.name.titleize %></div>
               <div class="card-text"><%= album.released_at %></div>
             </div>
           </div>
